@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 import java.util.List;
 
-
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
